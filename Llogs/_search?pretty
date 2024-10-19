@@ -1,0 +1,149 @@
+{
+  "took" : 7,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 10000,
+      "relation" : "gte"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "logs-2024.10.13",
+        "_type" : "_doc",
+        "_id" : "rv-ThpIBBnVTAIPV6ttw",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2024-10-13T15:51:33.480Z",
+          "host" : "90bd541a52d1",
+          "path" : "/var/log/dpkg.log",
+          "message" : "2024-10-09 20:05:25 configure cpp:amd64 4:12.2.0-3 <none>",
+          "@version" : "1"
+        }
+      },
+      {
+        "_index" : "logs-2024.10.13",
+        "_type" : "_doc",
+        "_id" : "r_-ThpIBBnVTAIPV6ttw",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2024-10-13T15:51:33.530Z",
+          "host" : "90bd541a52d1",
+          "path" : "/var/log/dpkg.log",
+          "message" : "2024-10-09 20:05:25 status unpacked cpp:amd64 4:12.2.0-3",
+          "@version" : "1"
+        }
+      },
+      {
+        "_index" : "logs-2024.10.13",
+        "_type" : "_doc",
+        "_id" : "sP-ThpIBBnVTAIPV6ttw",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2024-10-13T15:51:33.531Z",
+          "host" : "90bd541a52d1",
+          "path" : "/var/log/dpkg.log",
+          "message" : "2024-10-09 20:05:25 status half-configured cpp:amd64 4:12.2.0-3",
+          "@version" : "1"
+        }
+      },
+      {
+        "_index" : "logs-2024.10.13",
+        "_type" : "_doc",
+        "_id" : "sf-ThpIBBnVTAIPV6ttw",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2024-10-13T15:51:33.531Z",
+          "host" : "90bd541a52d1",
+          "path" : "/var/log/dpkg.log",
+          "message" : "2024-10-09 20:05:25 status installed cpp:amd64 4:12.2.0-3",
+          "@version" : "1"
+        }
+      },
+      {
+        "_index" : "logs-2024.10.13",
+        "_type" : "_doc",
+        "_id" : "sv-ThpIBBnVTAIPV6ttw",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2024-10-13T15:51:33.531Z",
+          "host" : "90bd541a52d1",
+          "path" : "/var/log/dpkg.log",
+          "message" : "2024-10-09 20:05:25 configure xml-core:all 0.18+nmu1 <none>",
+          "@version" : "1"
+        }
+      },
+      {
+        "_index" : "logs-2024.10.13",
+        "_type" : "_doc",
+        "_id" : "s_-ThpIBBnVTAIPV6ttw",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2024-10-13T15:51:33.531Z",
+          "host" : "90bd541a52d1",
+          "path" : "/var/log/dpkg.log",
+          "message" : "2024-10-09 20:05:25 status triggers-pending sgml-base:all 1.31",
+          "@version" : "1"
+        }
+      },
+      {
+        "_index" : "logs-2024.10.13",
+        "_type" : "_doc",
+        "_id" : "tP-ThpIBBnVTAIPV6ttw",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2024-10-13T15:51:33.531Z",
+          "host" : "90bd541a52d1",
+          "path" : "/var/log/dpkg.log",
+          "message" : "2024-10-09 20:05:25 status unpacked xml-core:all 0.18+nmu1",
+          "@version" : "1"
+        }
+      },
+      {
+        "_index" : "logs-2024.10.13",
+        "_type" : "_doc",
+        "_id" : "tf-ThpIBBnVTAIPV6ttw",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2024-10-13T15:51:33.531Z",
+          "host" : "90bd541a52d1",
+          "path" : "/var/log/dpkg.log",
+          "message" : "2024-10-09 20:05:25 status half-configured xml-core:all 0.18+nmu1",
+          "@version" : "1"
+        }
+      },
+      {
+        "_index" : "logs-2024.10.13",
+        "_type" : "_doc",
+        "_id" : "tv-ThpIBBnVTAIPV6ttw",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2024-10-13T15:51:33.531Z",
+          "host" : "90bd541a52d1",
+          "path" : "/var/log/dpkg.log",
+          "message" : "2024-10-09 20:05:25 status triggers-awaited xml-core:all 0.18+nmu1",
+          "@version" : "1"
+        }
+      },
+      {
+        "_index" : "logs-2024.10.13",
+        "_type" : "_doc",
+        "_id" : "t_-ThpIBBnVTAIPV6ttw",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2024-10-13T15:51:33.531Z",
+          "host" : "90bd541a52d1",
+          "path" : "/var/log/dpkg.log",
+          "message" : "2024-10-09 20:05:25 configure libpolkit-agent-1-0:amd64 122-3 <none>",
+          "@version" : "1"
+        }
+      }
+    ]
+  }
+}
